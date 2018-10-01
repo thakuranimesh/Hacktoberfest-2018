@@ -3,7 +3,7 @@ var filled=false;
 button.addEventListener("click",function(){
 	//alert('connected');
 	if(filled)
-		document.body.style.background="white";
+		document.body.style.background="yellow";
 	else
 		document.body.style.background="green";
 	filled=!filled;
